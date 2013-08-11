@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>chart.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,}$</string>
+			<key>Title</key>
+			<string>Generate QR</string>
+			<key>URL</key>
+			<string>http://chart.apis.google.com/chart?chs=300x300&amp;cht=qr&amp;chl={popclip text}</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>com.google.apis.chart</string>
+	<key>Extension Name</key>
+	<string>QR Code Generator</string>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Description</key>
+	<string>Generate a QR from a given URL</string>
+</dict>
+</plist>
